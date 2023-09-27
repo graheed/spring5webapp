@@ -50,3 +50,52 @@ Got a question about your Spring Framework 5 course? [Checkout these FAQs!](http
 * Like Spring Framework Guru on [Facebook](https://www.facebook.com/springframeworkguru/)
 * Follow Spring Framework Guru on [Twitter](https://twitter.com/spring_guru)
 * Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
+
+
+# Implementations Done By Raheed Gilzene
+
+
+
+
+## Lessons Learned
+
+1. Learned about java beans, and how to annotate a class as one.
+2. Learned about the application context and Inversion of Control. Most how Spring handles the flow of the application, instead of the developer.
+3. Learned about controllers and how to create mappings along with corresponding thymeleaf templates to render the views created.
+
+## Implementations
+
+- Created domain objects for Author, Book, Publisher and made them into beans. Also created mappings between each class using JPA.
+- Created two controllers, one for Book and the other for Author.
+- Implemented the repositories for the different beans, Author, Publisher and Book.
+- Created a simple bootstrap that shows the functionality of the features implemented.
+
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/graheed/spring5webapp.git
+```
+
+Go to the project directory
+
+```bash
+  cd spring5webapp
+```
+
+Open project in IDE of your choice
+
+Run the *Spring5webappApplication.java* class then visit url below to see either Book List or Author List
+
+```bash
+for book list:
+  localhost:8080/books/list
+            or
+for author list:
+  localhost:8080/authors/list
+```
+
